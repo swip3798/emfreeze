@@ -1,4 +1,5 @@
 # emfreeze
+[![Package build](https://github.com/swip3798/emfreeze/actions/workflows/python-package.yml/badge.svg)](https://github.com/swip3798/emfreeze/actions/workflows/python-package.yml)  
 Emfreeze is a command line tool for Windows to freeze a virtual environment as a standalone package. Contrary to cx_freeze or PyInstaller, emfreeze produces no additional executables. Instead it packs your scripts and dependencys together with the according python embeddable package. Therefore it is not good for standalone Python applications but ideal for an embedded use of Python inside another application. The main benefit is that the chance of implications with anti-virus software is reduced, because your freezed package only contains signed and commonly known executables.  
   
 **Warning**: 
